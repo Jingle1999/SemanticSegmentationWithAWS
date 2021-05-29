@@ -30,4 +30,4 @@ For the usage of the code make sure to have AWS set up appropriately and use the
 
 •	SciPy
 
-
+P.S.: also check out this post on medium https://medium.com/@andreas.braun.2011/semantic-segmentation-with-aws-sagemaker-udacitys-machine-learning-engineer-nanodegree-program-e150081345f8
