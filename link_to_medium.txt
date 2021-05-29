@@ -1,0 +1,1 @@
+https://medium.com/@andreas.braun.2011/semantic-segmentation-with-aws-sagemaker-udacitys-machine-learning-engineer-nanodegree-program-e150081345f8
