@@ -18,7 +18,7 @@ Fully convolutional network for semantic segmentation
 
 PROCESS FLOW
 
-After setting up the correct AWS environment for ML I loaded the VGG16-model as encoder and starting point of the Neural Network. It takes an input image and generates a high-dimensional feature vector as well as aggregates features at multiple levels. First, we built up the VGG16-model, creating different layers of Neural Network, optimizing these layers, building the correct labels and using our train_nn-function to train different batches of our data-label-combination. The decoder takes a high-dimensional feature vector and generates a semantic segmentation mask. Hence, it decodes features aggregated by the encoder at multiple levels.
+After setting up the correct AWS environment for ML I loaded the VGG16-model as encoder and starting point of the Neural Network. It takes an input image and generates a high-dimensional feature vector as well as aggregates features at multiple levels. First, we built up the VGG16-model, creating different layers of Neural Network, optimizing these layers, and using our train_nn-function to train different batches of our data-label-combination. The decoder takes a high-dimensional feature vector and generates a semantic segmentation mask. Hence, it decodes features aggregated by the encoder at multiple levels.
 
 For the usage of the code make sure to have AWS set up appropriately and use the following packages:
 
